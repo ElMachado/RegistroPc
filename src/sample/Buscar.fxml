@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="702.0" prefWidth="601.0"
+            style="-fx-background-color: #292d35;" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            fx:controller="sample.Buscar">
+   <children>
+      <Text fill="WHITE" layoutX="26.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0"
+            text="Buscar por numero de registro" wrappingWidth="204.13000106811523"/>
+      <TextField id="nRegistroIn" fx:id="nRegisroIntTex" layoutX="239.0" layoutY="25.0" prefHeight="26.0"
+                 prefWidth="109.0"/>
+      <Text fx:id="nombreEncargadoOutText" fill="WHITE" layoutX="26.0" layoutY="85.0" strokeType="OUTSIDE"
+            strokeWidth="0.0" text="Text" wrappingWidth="180.9830722808838"/>
+      <TextArea fx:id="diagnosticoText" layoutX="26.0" layoutY="150.0" prefHeight="206.0" prefWidth="530.0"/>
+      <Text fill="WHITE" layoutX="26.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diagnostico"/>
+      <TextArea fx:id="solucionText" layoutX="28.0" layoutY="417.0" prefHeight="200.0" prefWidth="530.0"/>
+      <Text fill="WHITE" layoutX="31.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solucion propuesta"
+            wrappingWidth="128.9830722808838"/>
+      <Button fx:id="buscarButton" layoutX="31.0" layoutY="644.0" mnemonicParsing="false" onAction="#buscar"
+              prefHeight="32.0" prefWidth="100.0" text="Buscar"/>
+   </children>
+</AnchorPane>

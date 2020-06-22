@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="391.0" maxWidth="629.0" minHeight="391.0" minWidth="629.0"
+            prefHeight="391.0" prefWidth="629.0" style="-fx-background-color: #292d35;"
+            xmlns="http://javafx.com/javafx/8.0.172-ea" fx:controller="sample.Controller">
+   <children>
+      <Text fill="WHITE" layoutX="199.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido">
+         <font>
+            <Font size="41.0"/>
+         </font>
+      </Text>
+      <ImageView fitHeight="168.0" fitWidth="289.0" layoutX="170.0" layoutY="33.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@../Images/logo.png"/>
+      </ImageView>
+      <Button layoutX="44.0" layoutY="301.0" mnemonicParsing="false" onAction="#onRegistreButton"
+              text="Registrar Computador"/>
+      <Button layoutX="415.0" layoutY="301.0" mnemonicParsing="false" onAction="#onBuscarButton" prefHeight="28.0"
+              prefWidth="155.0" text="Buscar Computador"/>
+   </children>
+</AnchorPane>
